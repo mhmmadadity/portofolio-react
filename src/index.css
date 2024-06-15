@@ -1,10 +1,30 @@
-*{
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+
 body {
   height: 100vh;
-  background: linear-gradient(265deg, #4E65FF -6%, #93A5CF 100%);
+  background: linear-gradient(265deg, #4e65ff -6%, #93a5cf 100%);
   color: white;
-  font-family: 'outfit';
+  font-family: "Outfit", sans-serif;
+}
+
+@media (max-width: 1290px) {
+  body {
+    background: linear-gradient(265deg, #4e65ff -6%, #93a5cf 80%);
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background: linear-gradient(265deg, #4e65ff -6%, #93a5cf 60%);
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    background: linear-gradient(265deg, #4e65ff -6%, #93a5cf 40%);
+  }
 }
